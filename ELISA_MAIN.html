@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en" class="ready" style="overflow: visible; height: 100%;">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>ELISA</title>
+    <link rel="Shortcut Icon" href="https://pc.wooricard.com/dcpc/img/pc/favicon.ico">
+
+    <!--
+    <link rel="stylesheet" type="text/css" href="./js/fonts.css"> 
+    //-->
+    <link rel="stylesheet" type="text/css" href="./js/layout.css">
+    <link rel="stylesheet" type="text/css" href="./js/main.css">
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/ui.front.js"></script>        
+    <script type="text/javascript" src="./js/ui.main.js"></script>
+    
+    <!--cndlink bootstrap & jquery-->
+    <script type="text/javascript" src='./js/bootstrap.min.js'></script>                    
+    <link rel='stylesheet' href='./js/bootstrap.min.css'>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/10/highcharts.js"></script>
+    
+</head>
+
+	<body class="isChrome">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-NTD4QT3"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="skipNavi">
+            <a href="https://pc.wooricard.com/dcpc/main.do#content">본문 바로가기</a>
+            <a href="https://pc.wooricard.com/dcpc/main.do#gnb">주메뉴 바로가기</a>
+        </div>
+        <!-- wrapper (s) -->
+        <div class="wrapper" id="pageWrap" style="min-height: 0px;">
+
+          
+
+            <header class="header hasCrumb onLoad sticky">
+                <!-- gnbArea(s) -->
+                <div class="gnbArea">
+
+                    <nav class="gnb gnbWrap " id="gnb">
+                        <a href="#" class="cateTit" style="display: none;"></a>
+						<div class="left logo">
+                            <ul>
+                                <li><span class="blind">영역</span></li>
+                                <li>
+                                    <a href="#">
+                                        <span>ELISA</span>
+                                    </a>
+                                    <span class="kor">분석업무</span><span class="eng">Laboratory Information System for Analysis</span>
+                                </li>
+                            </ul>                           
+                        </div>
+
+                       <div class="mauto">
+                            <ul  class="menu" >
+                                <li data-blind="false" class="">
+                                    <a href="#">
+                                        <span>MY Work</span></a>
+                                    <div class="subArea" style="display: none;">
+                                        <div class="subWrap">
+                                            <ul class="depth2">
+                                                
+                                                <li data-blind="false">
+                                                    <a href="#">나의 장비 예약 현황</a>
+                                                    <ul class="depth3">
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>나의 예약 현황</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>장비예약알림목록</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#">즐겨찾기</a>
+                                                    <ul class="depth3">
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>My 관심 분석결과서</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>My 관심 분석문서</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>My 결재선</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>My 실험 목록</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>My 관심장비</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#">결재</a>
+                                                    <ul class="depth3">
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>결재 승인 목록</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>결재 요청 목록</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>결재 위임</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#">My Info</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li data-blind="false">
+                                    <a href="#">
+                                        <span>분석센터</span></a>
+                                    <div class="subArea" style="display: none;">
+                                        <div class="subWrap">
+                                            <ul class="depth2">
+                                                <li data-blind="false">
+                                                    <a href="#">분석센터 소개</a>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#">분석팀소개</a>
+                                                    <ul class="depth3">
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>종합분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>가스분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>이미지분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>유기성분분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>무기성분분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>구조분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>표면분석</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#">
+                                                                <span>계산과학</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#">장비/기술 소개</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-blind="false">
+                                    <a href="#">
+                                        <span>분석의뢰dd</span></a>
+                                    <div class="subArea" style="display: none;">
+                                        <div class="subWrap">
+                                            <ul class="depth2">
+                                                <li data-blind="false">
+                                                    <a href="https://pc.wooricard.com/dcpc/yh1/ugd/ugd01/basuseadv/H1UGD201S01.do">카드이용가이드</a>
+                                                    <ul class="depth3">
+                                                        <li data-blind="false">
+                                                            <a href="https://pc.wooricard.com/dcpc/yh1/ugd/ugd01/basuseadv/H1UGD201S01.do">
+                                                                <span>기본이용안내</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="https://pc.wooricard.com/dcpc/yh1/ugd/ugd01/carduseadv/H1UGD201S08.do">
+                                                                <span>카드이용안내</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a
+                                                                href="https://pc.wooricard.com/dcpc/yh1/ugd/ugd01/cardfrgltyusemtd/H1UGD201S26.do">
+                                                                <span>카드알뜰이용법</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="https://pc.wooricard.com/dcpc/yh1/ugd/ugd01/cardsynadv/H1UGD201S34.do">
+                                                                <span>카드종합안내</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-blind="false">
+                                    <a href="#">
+                                        <span>분석관리</span></a>                               
+                                </li>
+                                
+                            </ul>
+                        </div>
+                       
+                        
+                        <div class="right">
+                            <li><button type="button" class="gnb_news" title="To do 바로가기"></button></li>
+                            <li><button type="button" class="gnb_faq" title="FAQ 바로가기"><span class="blind">질문답변 바로가기</span></button></li>
+                            <li>
+                                <button type="button" class="dropdown-toggle dtm" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="언어변경 바로가기"><span class="gnbglobal">ENG</span></button>   
+                              
+                                <!-- dropwon layer  추후 필요할 경우 사용 /  링크시 기존유지--> 
+                                <div class="dropdown-menu  rounded-4" aria-labelledby="messages">
+                                    <a class="dropdown-item" href="#">ENG</a>
+                                    <a class="dropdown-item active" href="#">KOR</a>
+                                  </div>
+
+                            </li>
+                            <li>
+                                <button type="button" class="gnb_user" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="사용자정보 바로가기"><span>홍길동 사원<span class="blind">사용자 정보</span></span></button>   
+                              
+                            </li>
+                            <li>
+                                <button class="navbar-toggler collapsed gnb_sitemap" type="button" data-toggle="collapse" data-target="#megamenu-dropdown" 
+                                aria-controls="megamenu-dropdown" aria-expanded="false" aria-label="Toggle navigation" title="전체메뉴 바로가기">
+                                <span><span class="blind">전체메뉴</span></span>
+                                  </button>
+
+
+                            </li>
+                    </nav>
+                    <span class="d1bar" style="left: 1036.5px; width: 43.8px;"></span>
+              
+                    <div class="megamenu">
+                        <div class="collapse navbar-collapse" id="megamenu-dropdown"  >
+                            <!-- 사이트맵-->
+                            <div class="Sitemap_subArea scrollbar">
+                                <div class="subWrap" >
+                                    <ul class="depth2">
+                                        <li data-blind="false">
+                                            <a href="#">My Work</a>
+                                            <ul class="depth3">
+                                                <li data-blind="false">
+                                                    <a href="#"><span>나의 장비 예약 현황</span></a>  
+                                                </li>
+                                                <li>
+                                                    <ul class="depth4">
+                                                        <li data-blind="false">
+                                                            <a href="#"> <span>나의 예약 현황</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>장비예약 알림목록</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a
+                                                        href="#">
+                                                        <span>즐겨찾기</span></a>
+                                                </li>
+                                                <li>
+                                                    <ul class="depth4">
+                                                        <li data-blind="false">
+                                                            <a href="#"> <span>My 관심 분석결과서</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>My 관심 분석문서</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>My 결재선</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>My 실험목록</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>My 관심장비</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">분석센터</a>
+                                            <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">분석의뢰</a>
+                                            <ul class="depth3">
+                                                <li data-blind="false">
+                                                    <a
+                                                        href="#">
+                                                        <span>분석의뢰 프로세스</span></a>
+                                                </li>
+                                                <li>
+                                                    <ul class="depth4">
+                                                        <li data-blind="false">
+                                                            <a href="#"> <span>의뢰 절차 안내</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>BM 분석 안내</span></a>
+                                                        </li>
+                                                        <li data-blind="false">
+                                                            <a href="#"><span>시료 준비 안내</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                
+                                                <li data-blind="false">
+                                                    <a href="#"><span>의뢰 작성</span></a>  
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#"><span>의뢰 목록</span></a>  
+                                                </li>
+                                                <li data-blind="false">
+                                                    <a href="#"><span>열람 신청 목록</span></a>  
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">분석관리</a>
+                                            <ul class="depth3">
+                                                
+                                            </ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a
+                                                href="#">장비교육 및 예약</a>
+                                                <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">분석문서</a>
+                                            <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">분석통계</a>
+                                            <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">기준정보</a>
+                                            <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a href="#">게시판</a>
+                                            <ul class="depth3"></ul>
+                                        </li>
+                                        <li data-blind="false">
+                                            <a
+                                                href="#">시스템관리</a>
+                                                <ul class="depth3"> </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="d1 dimmed" style="display: none;"></div>
+                    
+            </header>
+           
+            <div id="content" class="main" data-chat="true" style="opacity: 1; padding-top: 0px;">
+                <!-- 스크린 컨트롤러-->
+                <nav class="pxNavi" id="pxNavi">
+                    <ul id="areaMenu">
+                        <li class="">
+                            <a href="#section1">공통메인 Work</a>
+                        </li>
+                        <li class="">
+                            <a href="#section2">의뢰인</a>
+                        </li>
+                        <li class="">
+                            <a href="#section2">분석인</a>
+                        </li>                        
+                        <li class="">
+                            <a href="#section2">팀장,센터장</a>
+                        </li>
+                    </ul>
+                    <div class="blind focusSet first" tabindex="0"></div>
+                    <div class="blind focusSet last" tabindex="0"></div>
+                </nav>
+
+                <div class="secContain">
+                    
+                    <section class="section" data-title="공통메인 Work" id="section1" style="height: 1008px;">
+                        <h3 class="blind" tabindex="-1">공통 메인 모드</h3>
+                        <h2 class="blind">공통 메인 모드</h2>
+                        <div class="sectionWrap middle">
+                            <div class="content">
+                               <!-- 상단 work dashboard (s)-->
+							   <div class="plusSrvArea">
+                                    <div>
+                                        <div class="flex" > 
+                                            <div  class="progbartext" >
+                                                <p><span class="tit1">한눈에 보는</span><span class="tit2">분석의뢰 이용·신청절차</span></p>
+                                                <div class="flex">
+                                                    <button class="applybtn"><i></i>분석의뢰</button>
+                                                    <button class="revbtn"><i></i>장비예약</button>
+                                                </div>
+                                            </div>
+                                            <div class="progbar flexible-progress-bar mt50">
+                                            <ul>
+                                                <li>
+                                                    <span class="step01"></span>
+                                                    <span class="stepname">사전확인</span><br>                       
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <span class="step02"></span>
+                                                    <span class="stepname">분석상담</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                </li>
+                                                <li class="complete">
+                                                    <a href="ELISA_SUB.html" class="link_active" title="의뢰서 작성 바로가기">
+                                                    <span class="step03"></span>
+                                                    <span class="stepname">의뢰서 작성</span> <span class="stepcount">(0)</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                <li class="complete">
+                                                    <span class="step04"></span>
+                                                    <span class="stepname">시료전달</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                </li>
+                                                <li class="complete">
+                                                    <a href="#" class="link_active" title="의뢰서 접수 바로가기">
+                                                    <span class="step05"></span>
+                                                    <span class="stepname">의뢰서 접수</span> <span class="stepcount">(0)</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                    </a>
+                                                </li>    
+                                                <li class="active">
+                                                    <span class="step06"></span>
+                                                    <span class="stepname">분석수행</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                </li>    
+                                                <li class="active">
+                                                    <a href="#" class="link_active" title="결과서 작성 바로가기">
+                                                    <span class="step07"></span>
+                                                    <span class="stepname">결과서 작성</span> <span class="stepcount">(0)</span><br>
+                                                    <div class="stepline">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                    </a>
+                                                </li>     
+                                                <li class="active">
+                                                    <a href="#" class="link_active" title="결과서 승인 바로가기">
+                                                    <span class="step08"></span>
+                                                    <span class="stepname">결과서 승인</span> <span class="stepcount">(0)</span><br>
+                                                    <div class="steplinehalf">
+                                                        <p class="step"></p>
+                                                    </div>
+                                                    </a>
+                                                </li>        
+                                            </ul>                           
+                                        </div>
+                                        </div>
+                                        <div class="progscaption">
+                                            <a href="#">접수 소요기간 및 상세안내</a>
+                                            <p><span class="icon1"></span>의뢰인</p>
+                                            <p><span class="icon2"></span>분석센터</p>
+                                            <p><span class="icon3"></span>접수 소요일</p>
+                                            <p><span class="icon4"></span>분석 소요일</p>
+                                        </div>
+                                    </div>
+								
+									<!---프로세스 (e) -->
+
+                                     <div class="fr">
+                                        <fieldset>
+                                            <label class="tooltip-link" data-tooltip="내가 자주 찾는 메인을 먼저 볼수 있도록 고정">
+                                            <span class="switchlabel" >메인 화면 고정</span>
+                                            <input role="switch" type="checkbox" />                                           
+                                            </label>
+                                            <!--
+                                            <label>
+                                            <input role="switch" type="checkbox" disabled />
+                                            <span>알람 (비활성화)</span>
+                                            </label>-->
+                                        </fieldset>
+                                    </div>
+                                   
+                                    <!-- 화면 스위치 전환 토글 (e) -->
+
+								<ul class="plusSrvList">
+									<li>
+                                        <!--위젯 (s)-->
+										<div class="half1">
+                                            <div class="tit">
+                                                <p> 분석팀</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+                                            <div class="noticeWrap scrollbar">
+                                                <div class="teamlink">
+                                                    <a  href="#">
+                                                    <div class="team">
+                                                       <span class="team01"></span>
+                                                        <p> 종합분석</p>
+                                                    </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team02"></span>
+                                                            <p> 가스분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team03"></span>
+                                                            <p> 이미지분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team04"></span>
+                                                            <p> 유기성분분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team05"></span>
+                                                            <p> 무기성분분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team06"></span>
+                                                            <p> 구조분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team10"></span>
+                                                            <p> 표면분석</p>
+                                                        </div>
+                                                    </a>
+                                                    <a  href="#">
+                                                        <div class="team">
+                                                           <span class="team08"></span>
+                                                            <p> 계산과학</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+										</div>
+                                         <!--위젯 (e)-->
+										<div class="half2">
+                                            <div class="tit">
+                                                <p> ELISA 기술소개</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap scrollbar">
+                                                <ul class="txtList_disc" id="" >
+                                                    <li><a href="#" class="w60">기술소개 일부 제공기관 서비스 일시중단 안내</a>	<p class="w40"><span class="lastteam">무기성분분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">기본목록은 6개!</a>	<p class="w40"> <span class="lastteam">가스분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">그 이상은 목록이면 스크롤 auto</a>	<p class="w40"><span class="lastteam">이미지분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">기본목록은 6개!</a>	<p class="w40"> <span class="lastteam">가스분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">그 이상은 목록이면 스크롤 auto</a>	<p class="w40"><span class="lastteam">유기성분분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">그 이상은 목록이면 스크롤 auto</a>	<p class="w40"> <span class="lastteam">가스분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">그 이상은 목록이면 스크롤 auto</a>	<p class="w40"> <span class="lastteam">가스분석팀</span></p></li>
+                                                    <li><a href="#" class="w60">그 이상은 목록이면 스크롤 auto</a>	<p class="w40"><span class="lastteam">구조분석팀</span></p></li>
+                                                </ul>
+                                            </div>                                            
+										</div>
+									</li>
+									<li>
+										<div class="call" style="font-size:13px">
+                                            <div class="tit">
+                                                <p> 분석의뢰현황</p>
+                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap scrollbar">
+                                                <ul class="txtList_proc" id="">
+                                                    <li class="w70">
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                    <li class="w30" >
+                                                        <div class="process">
+                                                            <div class="step-bar">
+                                                                <ul>
+                                                                    <li class="current"><span class="">접수중</span></li>
+                                                                    <li class="disabled"><span class="blind">접수완료</span></li>
+                                                                    <li class="disabled"><span class="blind">분석중</span></li>
+                                                                    <li class="disabled"><span class="blind">분석완료</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li class="w70">
+                                                        <span class="tag_02">협조</span>
+                                                        <a href="#" class="tag_link"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                    <li class="w30" >
+                                                        <div class="process">
+                                                            <div class="step-bar">
+                                                                <ul>
+                                                                    <li class="current"><span class="blind">접수중</span></li>
+                                                                    <li class="current"><span class="blind">접수완료</span></li>
+                                                                    <li class="current"><span class="">분석중</span> </li>
+                                                                    <li class="disabled"><span class="blind">분석완료</span></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div> <!-- 숨김처리 : class="blind" -->
+                                                                <span class="ingtext">분석예정일 2024.09.06</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li class="w70">
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                    <li class="w30" >
+                                                        <div class="process">
+                                                            <div class="step-bar">
+                                                                <ul>
+                                                                    <li class="current"><span class="blind">접수중</span></li>
+                                                                    <li class="current"><span class="blind">접수완료</span></li>
+                                                                    <li class="current"><span class="blind">분석중</span> </li>
+                                                                    <li class="current"><span class="">분석완료</span></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div> <!-- 숨김처리 : class="blind" -->
+                                                                <span class="ingtext2">완료예정일 2024.09.06</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                               
+                                            </div>  
+
+										</div>
+									</li>
+									<li>
+										<div class="search">
+
+                                            <div class="searchbox">
+                                                <fieldset class="field-container" style="display: flex;">
+                                                  <input type="text" placeholder="어떤 분석의뢰 결과를 찾으시나요?" class="field" />
+                                                  <div class="icons-container">
+                                                    <div class="icon-search"></div>
+                                                    <div class="icon-close">
+                                                    <div class="x-up"></div>
+                                                    <div class="x-down"></div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="width: 64px; height: 48px;position: absolute; top:0px;right:0;">
+                                                    
+                                                    <!--<div><img class="dropdown-toggle" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="./img/search_sort.png"/> </div> //-->
+                                                    <button type="button" class="dropdown-toggle search_sort" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="search_sort 바로가기"><span><span class="blind">검색 정렬 조건</span></span></button>   
+                                                    <div class="dropdown-menu dropdown-menu-right rounded-4" style="margin-top:40px;" aria-labelledby="messages2">
+                                                        <a class="dropdown-item" href="#">기존 검색필터 항목 그대로 유지</a>
+                                                    </div>
+                                                    <button type="button" class="search_btn"  title="검색결과 바로가기"></button>                                                    
+                                                  </div>
+                                                </fieldset>   
+                                                <div class="searchbox_ranking">
+                                                    <span class="fb">인기검색어</span>
+                                                    <span><a href="#">#분석의뢰</a></span>
+                                                    <span><a href="#">#데이터</a></span>
+                                                    <span><a href="#">#RED</a></span>
+                                                </div>
+                                                <div class="searchbox_new">
+                                                    <span class="fb">최근검색어</span>
+                                                    <p><a href="#">분석의뢰</a></p>
+                                                    <p><a href="#">데이터</a></p>
+                                                    <p><a href="#">RED</a></p>
+                                                </div>
+                                            </div>
+
+                                           
+                                            
+
+										</div>
+										<div  class="r">
+                                             <!--위젯 (e)-->
+                                            <div class="half2">
+                                                <div class="noticeWrap2">
+                                                    <!-- noticeTab (s) -->
+                                                    <div class="tabWrap noticeTab">
+                                                        <!-- 탭 리스트 (s) -->
+                                                        <ul class="tabList noticeTab uiAct">
+                                                            <li class="" id="tab_0_0" role="tab" aria-controls="panel_0_0" tabindex="0" aria-selected="true">공지사항<span class="blind guideTxt">선택됨</span></li>
+                                                            <li class="on" id="tab_0_1" role="tab" aria-controls="panel_0_1" tabindex="-1" aria-selected="false" class="">장비 공지사항</li>
+                                                        </ul>
+                                                        <!-- 탭 리스트 (e) -->
+                                            
+                                                        <div class="tabContents">
+                                                            <!-- 공지사항 - 탭 콘텐츠 (s) -->
+                                                            <div class="tabPanel" id="panel_0_0" role="tabpanel" aria-hidden="false" aria-labelledby="tab_0_0">
+                                                                <ul class="txtList_disc" id="news">
+                                                                    <li>	<a href="#" class="w70">NICE아이디 서비스 일시 중단 안내</a>	<span class="lastdate">2024.08.16</span></li>
+                                                                    <li>	<a href="#" class="w70">오픈뱅킹 일부 제공기관 서비스 일시중단 안내</a>	<span class="lastdate">2024.08.16</span></li>
+                                                                    <li>	<a href="#" class="w70">고객제안 공모, 『WON 하는걸 제안해봐요!』 결과 안내</a>	<span class="lastdate">2024.08.08</span></li>
+                                                                </ul>
+                                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                                            </div>
+                                                            <!-- 공지사항 - 탭 콘텐츠 (e) -->
+                                                            <!-- 장비 공지사항 - 탭 콘텐츠 (s) -->
+                                                            <div class="tabPanel on" id="panel_0_1" role="tabpanel" aria-hidden="true" aria-labelledby="tab_0_1">
+                                                                 <ul class="txtList_disc" id="notice">
+                                                                    <li>	<a href="#" class="w70">[입찰공고] 이메일 솔루션 도입 및 인프라 구축[이메일 솔루션, 개발_종합평가]</a>	<span class="lastdate">2024.08.12</span></li>
+                                                                    <li>	<a href="#" class="w70">[입찰공고] 2024년 하반기 신입사원 채용 대행업체 선정</a>	<span class="lastdate">2024.08.22</span></li>
+                                                                    <li>	<a href="#" class="w70">[입찰공고] 유료상품서비스 제공사, 신상품 선정 제안요청 공고</a>	<span class="lastdate">2024.08.07</span></li>
+                                                                </ul> 
+                                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                                            </div>
+                                                            <!-- 장비 공지사항 - 탭 콘텐츠 (e) -->
+                                                        </div>
+                                                    </div>
+                                                    <!-- noticeTab (e) -->
+                                                </div>
+                                                                                          
+                                            </div>
+										</div>
+									</li>
+								</ul>
+                                <!-- 카피라이트 영역 -->
+                                <div class="flex">
+                                    <div class="fl copyright">
+                                        <ul>
+                                            <p>Copyright © 2024 LG System. All Rights Reserved.</p>
+                                            <li><a href="#">ALST자동화</a></li>
+                                            <li><a href="#">소재DB</a> </li>
+                                            <li><a href="#">셀DB</a></li>
+                                            <li><a href="#">IAM</a></li>
+                                            <li><a href="#"> B-LEX</a></li>
+                                            <li><a href="#"> EDISON</a></li>
+                                        </ul>
+                                    </div>   
+                                    <div class="fr caption">
+                                        <p >* ELISA에 등록되는 모든 정보는 대외비 이상 자료로서, 외부 유출 및 반출이 되어서는 안되는 자료입니다.</p>
+                                    </div>                                 
+                                </div>
+								</div>
+							   <!--상단 work dashboard  (e)-->
+                            </div>
+                        </div>
+                        <!-- 공통메인 마우스휠 UI 추가 -->
+                        <div class="mouseWheel" aria-hidden="true">
+                            <button type="button" class="btnIco_mouse easeInOutExpo" tabindex="-1"><span class="blind">다음 섹션</span></button>
+                        </div>
+                    </section>
+
+
+                    <section class="section" data-title="의뢰인" id="section2" style="height: 1008px;">
+                        <h3 class="blind" tabindex="-1">의뢰인 모드</h3>
+                        <h2 class="blind">의뢰인 모드</h2>
+                        <div class="sectionWrap middle">
+                            <div class="content">
+                                <!-- 상단 work dashboard (s)-->
+                                <div class="plusSrvArea">
+                                    <!---프로세스 시작 -->
+                                    <div>
+                                        <div class="flex" > 
+                                            <div  class="progbartext" >
+                                                <p><span class="tit1">한눈에 보는</span><span class="tit2">분석의뢰 이용·신청절차</span></p>
+                                                <div class="flex">
+                                                    <button class="applybtn"><i></i>분석의뢰</button>
+                                                    <button class="revbtn"><i></i>장비예약</button>
+                                                </div>
+                                            </div>
+                                            <div class="progbar flexible-progress-bar mt50">
+                                            <ul>
+                                            <li >
+                                                <span class="step01"></span>
+                                                <span class="stepname">사전확인</span><br>                       
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="step02"></span>
+                                                <span class="stepname">분석상담</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step03"></span>
+                                                <span class="stepname">의뢰서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step04"></span>
+                                                <span class="stepname">시료전달</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                                </li>
+                                                <li class="complete">
+                                                <span class="step05"></span>
+                                                <span class="stepname">의뢰서 접수</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step06"></span>
+                                                <span class="stepname">분석수행</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step07"></span>
+                                                <span class="stepname">결과서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>     
+                                            <li class="active">
+                                                <span class="step08"></span>
+                                                <span class="stepname">결과서 승인</span> <span class="stepcount">(0)</span><br>
+                                                <div class="steplinehalf">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>        
+                                            </ul>                           
+                                        </div>
+                                        </div>
+                                        <div class="progscaption">
+                                            <a href="#">접수 소요기간 및 상세안내</a>
+                                            <p><span class="icon1"></span>의뢰인</p>
+                                            <p><span class="icon2"></span>분석센터</p>
+                                            <p><span class="icon3"></span>접수 소요일</p>
+                                            <p><span class="icon4"></span>분석 소요일</p>
+                                        </div>
+                                    </div>
+                                    <!---프로세스 끝 -->
+                                    <!-- 화면 스위치 전환 토글 (s) -->
+                                    <div class="fr">
+                                        <fieldset>
+                                            <label class="tooltip-link" data-tooltip="내가 자주 찾는 메인을 먼저 볼수 있도록 고정">
+                                            <span class="switchlabel">메인 화면 고정</span>
+                                            <input role="switch" type="checkbox" />
+                                            </label>
+                                            <!--
+                                            <label>
+                                            <input role="switch" type="checkbox" disabled />
+                                            <span>알람 (비활성화)</span>
+                                            </label>-->
+                                        </fieldset>
+                                    </div>
+                                      <!-- 화면 스위치 전환 토글 (e) -->
+
+                                <ul class="plusSrvArea_m">
+                                    <li>
+                                        <div class="call">
+
+                                            <div class="tit">
+                                                <p> 나의 장비 예약 현황</p>
+                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="" >
+                                                    <li><a href="#" class="w40">장비명 어디까지 나오나 영역 테스트중인데 잘 나오고 있을까요 말까요</a>	<p class="w60"><span class="location">대전 3P L층대전 3P L층층대</span> <span class="lastdate">24.08.16 ~ 24.08.30</span></p></li>
+                                                </ul>
+                                            </div> 
+
+										</div>
+                                    </li>
+                                    <li>
+                                        <div class="call">
+
+                                            <div class="tit">
+                                                <p> 나의 관심 분석 결과서</p>
+                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap scrollbar">
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_02">협조</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 리막 4M QC Cycle 퇴화셀가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                            </div>  
+
+										</div>                                      
+                                    </li>
+                                    <li>
+                                        <div class="search">
+                                            <div class="searchbox">
+                                                <fieldset class="field-container" style="display: flex;">
+                                                  <input type="text" placeholder="어떤 분석의뢰 결과를 찾으시나요?" class="field" />
+                                                  <div class="icons-container">
+                                                    <div class="icon-search"></div>
+                                                    <div class="icon-close">
+                                                    <div class="x-up"></div>
+                                                    <div class="x-down"></div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="width: 64px; height: 48px;position: absolute; top:0px;right:0;">
+                                                    
+                                                    <!--<div><img class="dropdown-toggle" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="./img/search_sort.png"/> </div> //-->
+                                                    <button type="button" class="dropdown-toggle search_sort" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="search_sort 바로가기"><span><span class="blind">검색 정렬 조건</span></span></button>   
+                                                    <div class="dropdown-menu dropdown-menu-right rounded-4" style="margin-top:40px;" aria-labelledby="messages2">
+                                                        <a class="dropdown-item" href="#">기존 검색필터 항목 그대로 유지</a>
+                                                    </div>
+                                                    <button type="button" class="search_btn"  title="검색결과 바로가기"></button>                                                    
+                                                  </div>
+                                                </fieldset>   
+                                                <div class="searchbox_ranking">
+                                                    <span class="fb">인기검색어</span>
+                                                    <span><a href="#">#분석의뢰</a></span>
+                                                    <span><a href="#">#데이터</a></span>
+                                                    <span><a href="#">#RED</a></span>
+                                                </div>
+                                                <div class="searchbox_new">
+                                                    <span class="fb">최근검색어</span>
+                                                    <p><a href="#">분석의뢰</a></p>
+                                                    <p><a href="#">데이터</a></p>
+                                                    <p><a href="#">RED</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  class="r">
+
+                                            <div class="tit">
+                                                <p> 오픈 교육 일정</p>
+                                                <button type="button" class="btnIco_more"><span class="blind">더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w60">분석업무 교육개설</a>	<p class="w40"> <span class="lastdate">24.08.16 ~ 24.09.30</span></p></li>
+                                                </ul>
+                                            </div>  
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                 <!-- 카피라이트 영역 -->
+                                 <div class="flex">
+                                    <div class="fl copyright">
+                                        <ul>
+                                            <p>Copyright © 2024 LG System. All Rights Reserved.</p>
+                                            <li><a href="#">ALST자동화</a></li>
+                                            <li><a href="#">소재DB</a> </li>
+                                            <li><a href="#">셀DB</a></li>
+                                            <li><a href="#">IAM</a></li>
+                                            <li><a href="#"> B-LEX</a></li>
+                                            <li><a href="#"> EDISON</a></li>
+                                        </ul>
+                                    </div>   
+                                    <div class="fr caption">
+                                        <p >* ELISA에 등록되는 모든 정보는 대외비 이상 자료로서, 외부 유출 및 반출이 되어서는 안되는 자료입니다.</p>
+                                    </div>                                 
+                                </div>
+                                </div>
+                               <!--상단 work dashboard  (e)-->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section" data-title="분석인" id="section3" style="height: 1008px;">
+                        <h3 class="blind" tabindex="-1">의뢰인 모드</h3>
+                        <h2 class="blind">의뢰인 모드</h2>
+                        <div class="sectionWrap middle">
+                            <div class="content">
+                                <!-- 상단 work dashboard (s)-->
+                                <div class="plusSrvArea">
+                                    <!---프로세스 시작 -->
+                                    <div>
+                                        <div class="flex" > 
+                                            <div  class="progbartext" >
+                                                <p><span class="tit1">한눈에 보는</span><span class="tit2">분석의뢰 이용·신청절차</span></p>
+                                                <div class="flex">
+                                                    <button class="applybtn"><i></i>분석의뢰</button>
+                                                    <button class="revbtn"><i></i>장비예약</button>
+                                                </div>
+                                            </div>
+                                            <div class="progbar flexible-progress-bar mt50">
+                                            <ul>
+                                            <li >
+                                                <span class="step01"></span>
+                                                <span class="stepname">사전확인</span><br>                       
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="step02"></span>
+                                                <span class="stepname">분석상담</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step03"></span>
+                                                <span class="stepname">의뢰서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step04"></span>
+                                                <span class="stepname">시료전달</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                                </li>
+                                                <li class="complete">
+                                                <span class="step05"></span>
+                                                <span class="stepname">의뢰서 접수</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step06"></span>
+                                                <span class="stepname">분석수행</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step07"></span>
+                                                <span class="stepname">결과서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>     
+                                            <li class="active">
+                                                <span class="step08"></span>
+                                                <span class="stepname">결과서 승인</span> <span class="stepcount">(0)</span><br>
+                                                <div class="steplinehalf">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>        
+                                            </ul>                           
+                                        </div>
+                                        </div>
+                                        <div class="progscaption">
+                                            <a href="#">접수 소요기간 및 상세안내</a>
+                                            <p><span class="icon1"></span>의뢰인</p>
+                                            <p><span class="icon2"></span>분석센터</p>
+                                            <p><span class="icon3"></span>접수 소요일</p>
+                                            <p><span class="icon4"></span>분석 소요일</p>
+                                        </div>
+                                    </div>
+                                    <!---프로세스 끝 -->
+                                    <!-- 화면 스위치 전환 토글 (s) -->
+                                    <div class="fr">
+                                        <fieldset>
+                                            <label class="tooltip-link" data-tooltip="내가 자주 찾는 메인을 먼저 볼수 있도록 고정">
+                                            <span class="switchlabel">메인 화면 고정</span>
+                                            <input role="switch" type="checkbox" />
+                                            </label>
+                                            <!--
+                                            <label>
+                                            <input role="switch" type="checkbox" disabled />
+                                            <span>알람 (비활성화)</span>
+                                            </label>-->
+                                        </fieldset>
+                                    </div>
+                                      <!-- 화면 스위치 전환 토글 (e) -->
+
+                                <ul class="plusSrvArea_m">
+                                    <li>
+                                        <!--위젯 (s)-->
+										<div class="half1">
+                                            <div class="tit">
+                                                <p> 나의 장비 예약 현황</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w40">장비명</a>	<p class="w60"><span class="location">대전 3P L층대전 3P L층</span> <span class="lastdate">24.08.16 ~ 24.08.30</span></p></li>
+                                                </ul>
+                                            </div>
+                                            
+										</div>
+                                         <!--위젯 (e)-->
+										<div class="half2">
+                                            <div class="tit">
+                                                <p> 나의 관심 장비</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w60">NICE아이디 서비스 일시 중단 안내</a>	<p class="w40"><span class="team">가스분석팀</span> <span class="lastdate textcolor1">예약중지</span></p></li>
+                                                    <li><a href="#" class="w60">오픈뱅킹 일부 제공기관 서비스 일시중단 안내</a>	<p class="w40"><span class="team">가스대응분석팀</span><span class="lastdate textcolor2">예약가능</span></p></li>
+                                                </ul>
+                                            </div>                                            
+										</div>
+                                    </li>
+                                    <li>
+                                        <!--위젯 (s)-->
+										<div class="half1">
+                                            <div class="tit">
+                                                <p> 나의 관심 분석 결과서</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+                                            <div class="noticeWrap scrollbar">
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_02">협조</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 63B 분리막 4M QC Cyclec63B 분리막 4M QC Cyclele 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막63B 분리막 4M QC Cycle 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                            </div> 
+                                            
+										</div>
+                                         <!--위젯 (e)-->
+										<div class="half2">
+                                            <div class="tit">
+                                                <p> 나의 관심 분석 문서</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w70">ERT-0018 분석문서명표시</a>	<p class="w30"><span class="team2 w60">가스분석팀</span> <span class="lastdate">이종근</span></p></li>
+                                                </ul>
+                                            </div>                                            
+										</div>                                     
+                                    </li>
+                                    <li>
+                                        <div class="search">
+                                            <div class="searchbox">
+                                                <fieldset class="field-container" style="display: flex;">
+                                                  <input type="text" placeholder="어떤 분석의뢰 결과를 찾으시나요?" class="field" />
+                                                  <div class="icons-container">
+                                                    <div class="icon-search"></div>
+                                                    <div class="icon-close">
+                                                    <div class="x-up"></div>
+                                                    <div class="x-down"></div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="width: 64px; height: 48px;position: absolute; top:0px;right:0;">
+                                                    
+                                                    <!--<div><img class="dropdown-toggle" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="./img/search_sort.png"/> </div> //-->
+                                                    <button type="button" class="dropdown-toggle search_sort" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="search_sort 바로가기"><span><span class="blind">검색 정렬 조건</span></span></button>   
+                                                    <div class="dropdown-menu dropdown-menu-right rounded-4" style="margin-top:40px;" aria-labelledby="messages2">
+                                                        <a class="dropdown-item" href="#">기존 검색필터 항목 그대로 유지</a>
+                                                    </div>
+                                                    <button type="button" class="search_btn"  title="검색결과 바로가기"></button>                                                    
+                                                  </div>
+                                                </fieldset>   
+                                                <div class="searchbox_ranking">
+                                                    <span class="fb">인기검색어</span>
+                                                    <span><a href="#">#분석의뢰</a></span>
+                                                    <span><a href="#">#데이터</a></span>
+                                                    <span><a href="#">#RED</a></span>
+                                                </div>
+                                                <div class="searchbox_new">
+                                                    <span class="fb">최근검색어</span>
+                                                    <p><a href="#">분석의뢰</a></p>
+                                                    <p><a href="#">데이터</a></p>
+                                                    <p><a href="#">RED</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  class="r">
+                                            <div class="tit">
+                                                <p> 분석인 포럼</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w60">표면분석 장비교육</a>	<p class="w40"> <span class="lastdate">24.08.16 ~ 24.09.30</span></p></li>
+                                                </ul>
+                                            </div> 
+                                        </div>
+                                    </li>
+                                </ul>
+                                 <!-- 카피라이트 영역 -->
+                                 <div class="flex">
+                                    <div class="fl copyright">
+                                        <ul>
+                                            <p>Copyright © 2024 LG System. All Rights Reserved.</p>
+                                            <li><a href="#">ALST자동화</a></li>
+                                            <li><a href="#">소재DB</a> </li>
+                                            <li><a href="#">셀DB</a></li>
+                                            <li><a href="#">IAM</a></li>
+                                            <li><a href="#"> B-LEX</a></li>
+                                            <li><a href="#"> EDISON</a></li>
+                                        </ul>
+                                    </div>   
+                                    <div class="fr caption">
+                                        <p >* ELISA에 등록되는 모든 정보는 대외비 이상 자료로서, 외부 유출 및 반출이 되어서는 안되는 자료입니다.</p>
+                                    </div>                                 
+                                </div>
+                                </div>
+                               <!--상단 work dashboard  (e)-->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section" data-title="팀장,센터장" id="section4" style="height: 1008px;">
+                        <h3 class="blind" tabindex="-1">팀장, 센터장</h3>
+                        <h2 class="blind">팀장,센터장 모드</h2>
+                        <div class="sectionWrap middle">
+                            <div class="content">
+                                <!-- 상단 work dashboard (s)-->
+                                <div class="plusSrvArea">
+                                    <!---프로세스 시작 -->
+                                    <div>
+                                        <div class="flex" > 
+                                            <div  class="progbartext" >
+                                                <p><span class="tit1">한눈에 보는</span><span class="tit2">분석의뢰 이용·신청절차</span></p>
+                                                <div class="flex">
+                                                    <button class="applybtn"><i></i>분석의뢰</button>
+                                                    <button class="revbtn"><i></i>장비예약</button>
+                                                </div>
+                                            </div>
+                                            <div class="progbar flexible-progress-bar mt50">
+                                            <ul>
+                                            <li >
+                                                <span class="step01"></span>
+                                                <span class="stepname">사전확인</span><br>                       
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="step02"></span>
+                                                <span class="stepname">분석상담</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step03"></span>
+                                                <span class="stepname">의뢰서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>
+                                            <li class="complete">
+                                                <span class="step04"></span>
+                                                <span class="stepname">시료전달</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                                </li>
+                                                <li class="complete">
+                                                <span class="step05"></span>
+                                                <span class="stepname">의뢰서 접수</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step06"></span>
+                                                <span class="stepname">분석수행</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>    
+                                            <li class="active">
+                                                <span class="step07"></span>
+                                                <span class="stepname">결과서 작성</span> <span class="stepcount">(0)</span><br>
+                                                <div class="stepline">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>     
+                                            <li class="active">
+                                                <span class="step08"></span>
+                                                <span class="stepname">결과서 승인</span> <span class="stepcount">(0)</span><br>
+                                                <div class="steplinehalf">
+                                                <p class="step"></p>
+                                                </div>
+                                            </li>        
+                                            </ul>                           
+                                        </div>
+                                        </div>
+                                        <div class="progscaption">
+                                            <a href="#">접수 소요기간 및 상세안내</a>
+                                            <p><span class="icon1"></span>의뢰인</p>
+                                            <p><span class="icon2"></span>분석센터</p>
+                                            <p><span class="icon3"></span>접수 소요일</p>
+                                            <p><span class="icon4"></span>분석 소요일</p>
+                                        </div>
+                                    </div>
+                                    <!---프로세스 끝 -->
+                                    <!-- 화면 스위치 전환 토글 (s) -->
+                                    <div class="fr">
+                                        <fieldset>
+                                            <label class="tooltip-link" data-tooltip="내가 자주 찾는 메인을 먼저 볼수 있도록 고정">
+                                            <span class="switchlabel">메인 화면 고정</span>
+                                            <input role="switch" type="checkbox" />
+                                            </label>
+                                            <!--
+                                            <label>
+                                            <input role="switch" type="checkbox" disabled />
+                                            <span>알람 (비활성화)</span>
+                                            </label>-->
+                                        </fieldset>
+                                    </div>
+                                      <!-- 화면 스위치 전환 토글 (e) -->
+
+                                <ul class="plusSrvArea_c">
+                                    <li>
+                                        <div class="half1">
+                                            <div class="tit">
+                                                <p> 분석통계</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap scrollbar">
+
+                                                <div class="flex" style="width: 100%;height: 100%;" style="background-color: red;">
+                                                    <div class="w40 mr50">
+                                                        <div id="container" style="width:100%; height:200px;"></div>
+                                                    </div>
+                                                    <div class="w40 ml50">
+                                                        <div id="container2" style="width:100%; height:200px;"></div>
+                                                    </div>
+                                                </div>
+                                           
+                                            </div> 
+                                        </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    Highcharts.chart('container', {
+
+title: {
+    text: '',
+    align: 'left'
+},
+/*  하단 하이챠트 카피라이터 제거 */
+credits: {
+        enabled: false
+    },
+
+subtitle: {
+    text: '',
+    align: 'left'
+},
+
+yAxis: {
+    title: {
+        text: ''
+    }
+},
+
+xAxis: {
+    accessibility: {
+        rangeDescription: 'Range: 2010 to 2022'
+    }
+},
+
+legend: {
+    layout: 'vertical',
+    align: 'right',
+    verticalAlign: 'middle'
+},
+
+plotOptions: {
+    series: {
+        label: {
+            connectorAllowed: false
+        },
+        pointStart: 2010
+    }
+},
+
+series: [{
+    name: 'Installation & Developers',
+    data: [
+        43934, 48656, 65165, 81827, 112143, 142383,
+        171533, 165174, 155157, 161454, 154610, 168960, 171558
+    ]
+}, {
+    name: 'Manufacturing',
+    data: [
+        24916, 37941, 29742, 29851, 32490, 30282,
+        38121, 36885, 33726, 34243, 31050, 33099, 33473
+    ]
+}, {
+    name: 'Sales & Distribution',
+    data: [
+        11744, 30000, 16005, 19771, 20185, 24377,
+        32147, 30912, 29243, 29213, 25663, 28978, 30618
+    ]
+}, {
+    name: 'Operations & Maintenance',
+    data: [
+        null, null, null, null, null, null, null,
+        null, 11164, 11218, 10077, 12530, 16585
+    ]
+}, {
+    name: 'Other',
+    data: [
+        21908, 5548, 8105, 11248, 8989, 11816, 18274,
+        17300, 13053, 11906, 10073, 11471, 11648
+    ]
+}],
+
+responsive: {
+    rules: [{
+        condition: {
+            maxWidth: 500
+        },
+        chartOptions: {
+            legend: {
+                layout: 'horizontal',
+                align: 'center',
+                verticalAlign: 'top'
+            }
+        }
+    }]
+}
+});
+});
+
+
+
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    Highcharts.chart('container2', {
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: ''
+        },
+        /*  하단 하이챠트 카피라이터 제거 */
+        credits: {
+        enabled: false
+    },
+        xAxis: {
+            categories: ['김과장', '박팀장', '양사원']
+        },
+        yAxis: {
+            title: {
+                text: '통계 예시 화면입니다'
+            }
+        },
+        series: [{
+            name: '월말통계',
+            data: [1, 0, 4]
+        }, {
+            name: '주간통계',
+            data: [5, 7, 3]
+        }],
+    });
+});
+</script>
+
+                                        <div class="none half2">
+                                            <div class="tit">
+                                                <p> 나의 관심 분석 결과서</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+                                            <div class="noticeWrap scrollbar">
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_01">분석</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                                <ul class="txtList_proc" id="">
+                                                    <li>
+                                                        <span class="tag_02">협조</span>
+                                                        <a href="#" class="tag_link" style="width: 480px;"><span class="pr20">E23-00032</span><span>E63B 분리막 4M QC Cycle 퇴화셀 가스분석</span></a>
+                                                        
+                                                        <p><span class="nametit">의뢰인</span><span class="fb">김길자</span>
+                                                        <span class="nametit">분석인</span><span class="fb">관리자</span>
+                                                        <span class="nametit">의뢰일자</span><span class="fb">2024.10.10</span>
+                                                        <span class="nametit">완료일자</span><span class="fb">2024.12.10</span></p>
+                                                    </li>
+                                                </ul>
+                                            </div> 
+                                           
+                                        </div>
+                                        <div class="none half3">
+                                            <div class="tit">
+                                                <p> 나의 관심 분석 문서</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w70">ERT-0018 분석문서명표시</a>	<p class="w30"><span class="team2 w60">가스분석팀</span> <span class="lastdate">이종근</span></p></li>
+                                                </ul>
+                                             </div> 
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search">
+                                            <div class="searchbox">
+                                                <fieldset class="field-container" style="display: flex;">
+                                                  <input type="text" placeholder="어떤 분석의뢰 결과를 찾으시나요?" class="field" />
+                                                  <div class="icons-container">
+                                                    <div class="icon-search"></div>
+                                                    <div class="icon-close">
+                                                    <div class="x-up"></div>
+                                                    <div class="x-down"></div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="width: 64px; height: 48px;position: absolute; top:0px;right:0;">
+                                                    
+                                                    <!--<div><img class="dropdown-toggle" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="./img/search_sort.png"/> </div> //-->
+                                                    <button type="button" class="dropdown-toggle search_sort" id="messages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="search_sort 바로가기"><span><span class="blind">검색 정렬 조건</span></span></button>   
+                                                    <div class="dropdown-menu dropdown-menu-right rounded-4" style="margin-top:40px;" aria-labelledby="messages2">
+                                                        <a class="dropdown-item" href="#">기존 검색필터 항목 그대로 유지</a>
+                                                    </div>
+                                                    <button type="button" class="search_btn"  title="검색결과 바로가기"></button>                                                    
+                                                  </div>
+                                                </fieldset>   
+                                                <div class="searchbox_ranking">
+                                                    <span class="fb">인기검색어</span>
+                                                    <span><a href="#">#분석의뢰</a></span>
+                                                    <span><a href="#">#데이터</a></span>
+                                                    <span><a href="#">#RED</a></span>
+                                                </div>
+                                                <div class="searchbox_new">
+                                                    <span class="fb">최근검색어</span>
+                                                    <p><a href="#">분석의뢰</a></p>
+                                                    <p><a href="#">데이터</a></p>
+                                                    <p><a href="#">RED</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  class="r">
+                                            <div class="tit">
+                                                <p> 분석인 포럼</p>
+                                                <button type="button" class="btnIco_more"><span>더보기</span></button>
+                                            </div>
+
+                                            <div class="noticeWrap">
+                                                <ul class="txtList_disc" id="">
+                                                    <li><a href="#" class="w60">표면분석 장비교육</a>	<p class="w40"> <span class="lastdate">24.08.16 ~ 24.09.30</span></p></li>
+                                                </ul>
+                                            </div> 
+                                        </div>
+                                    </li>
+                                </ul>
+                                 <!-- 카피라이트 영역 -->
+                                 <div class="flex">
+                                    <div class="fl copyright">
+                                        <ul>
+                                            <p>Copyright © 2024 LG System. All Rights Reserved.</p>
+                                            <li><a href="#">ALST자동화</a></li>
+                                            <li><a href="#">소재DB</a> </li>
+                                            <li><a href="#">셀DB</a></li>
+                                            <li><a href="#">IAM</a></li>
+                                            <li><a href="#"> B-LEX</a></li>
+                                            <li><a href="#"> EDISON</a></li>
+                                        </ul>
+                                    </div>   
+                                    <div class="fr caption">
+                                        <p >* ELISA에 등록되는 모든 정보는 대외비 이상 자료로서, 외부 유출 및 반출이 되어서는 안되는 자료입니다.</p>
+                                    </div>                                 
+                                </div>
+                                </div>
+                               <!--상단 work dashboard  (e)-->
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+               
+				
+            </div>
+
+           
+           
+           
+
+            
+
+        </div>
+      
+
+
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+        <script  src="./js/script.js"></script> 
+
+    </body>
+</html>
